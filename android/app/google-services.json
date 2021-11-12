@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1028944764949",
+    "project_id": "digitaltronsdemo",
+    "storage_bucket": "digitaltronsdemo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1028944764949:android:9697a492b6d6f20b916e1c",
+        "android_client_info": {
+          "package_name": "com.example.digital_trons_demo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1028944764949-1crl48vrkddr66psl8gcslevvlub6nia.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB7rXsWLbar_23ynYw2oWiXKnlqXFhAfAg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1028944764949-1crl48vrkddr66psl8gcslevvlub6nia.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
