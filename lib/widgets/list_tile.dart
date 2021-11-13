@@ -33,7 +33,7 @@ class SlotListTile extends StatelessWidget {
       child: Container(
         height: 70,
         padding: const EdgeInsets.only(left: 20.0, right: 20.0),
-        margin: const EdgeInsets.only(top: 6.0, left: 8.0, right: 8.0),
+        margin: const EdgeInsets.only(top: 8.0, left: 8.0, right: 8.0),
         decoration: BoxDecoration(
           color: booked! ? Colors.red : Colors.lightGreen,
           boxShadow: [

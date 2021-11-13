@@ -38,7 +38,7 @@ class FormBloc extends Bloc<FormEvent, EditFormState>{
     await Future.delayed(Duration(seconds: 2));
     var result = await databaseService.editSlot(event.slot, event.startTime);
     if(result){
-      emit(FormSuccessState());
+      yield FormSuccessState();
     }
     else{
       yield FormErrorState();
