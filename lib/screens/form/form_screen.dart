@@ -32,6 +32,9 @@ class FormScreen extends StatelessWidget {
     firstNameController.text = slot?.firstName ?? "";
     lastNameController.text = slot?.lastName ?? "";
     mobileController.text = slot?.mobile ?? "";
+    print(slot?.firstName ?? "null");
+    print(slot?.lastName ?? "null");
+    print(slot?.mobile ?? "null");
     return Scaffold(
       appBar: AppBar(
         title: Text("Digital Trons"),

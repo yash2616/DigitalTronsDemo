@@ -1,5 +1,6 @@
 import 'package:digital_trons_demo/screens/dashboard/bloc/dashboard_bloc.dart';
 import 'package:digital_trons_demo/screens/dashboard/dashboard_screen.dart';
+import 'package:digital_trons_demo/screens/splash/splash_screen.dart';
 import 'package:digital_trons_demo/services/database_service.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
@@ -30,7 +31,7 @@ class MyApp extends StatelessWidget {
         theme: ThemeData(
           primarySwatch: Colors.blue,
         ),
-        home: DashboardScreen(),
+        home: SplashScreen(),
       ),
     );
   }
